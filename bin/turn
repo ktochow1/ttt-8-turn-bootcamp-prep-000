@@ -1,15 +1,18 @@
 #!/usr/bin/env ruby
 
 
-def display_board
-  puts " X  |  X  |  X  "
-  puts "-----------"
-  puts " X  |  X  |  X  "
-  puts "-----------"
-  puts " X  |  X  |  X  "
-end
+# def display_board
+#   puts " X  |  X  |  X  "
+#   puts "-----------"
+#   puts " X  |  X  |  X  "
+#   puts "-----------"
+#   puts " X  |  X  |  X  "
+# end
+#
+# def input_to_index(user_input)
+#   user_input = gets.chomp.to_i
+# end
+# input_to_index(user_input)
 
-def input_to_index(user_input)
-  user_input = gets.chomp.to_i
-end
-input_to_index(user_input)
+def turn
+  puts "Type in either and 'X' or an 'O'."

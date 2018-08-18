@@ -16,4 +16,5 @@
 
 def turn
   puts "Type in either and 'X' or an 'O'."
+  input = gets.chomp.to_i
 end

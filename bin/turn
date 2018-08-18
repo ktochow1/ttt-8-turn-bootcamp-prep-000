@@ -8,3 +8,7 @@ def display_board
   puts "-----------"
   puts " X  |  X  |  X  "
 end
+
+def input_to_index(user_input)
+  user_input = gets.chomp.to_i
+end

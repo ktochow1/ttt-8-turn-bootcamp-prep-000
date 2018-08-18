@@ -16,3 +16,4 @@
 
 def turn
   puts "Type in either and 'X' or an 'O'."
+end
